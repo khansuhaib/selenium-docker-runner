@@ -17,4 +17,4 @@ services:
       - BROWSER=chrome
       - MODULE=search-module.xml
     volumes:
-      - $HOME/output/search-result:/usr/share/udemy/test-output
+      - ${HOME}/output/search-result:/usr/share/udemy/test-output
