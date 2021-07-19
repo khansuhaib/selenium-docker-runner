@@ -13,7 +13,7 @@ pipeline{
 		}
 		stage("Run Test"){
 			steps{
-				sh "docker-compose up -td search-module"
+				sh "docker-compose up -d search-module"
 			}
 		}
 	}
